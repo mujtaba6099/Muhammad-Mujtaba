@@ -1,0 +1,80 @@
+*{
+	box-sizing: border-box;
+}
+#header-nav{
+	background-color:  gray;
+	border-radius: 0;
+	border:0;
+}
+
+.navbar-header{
+	padding-top: 10px;
+}
+.name{
+	padding-top: 1px;
+	position: relative;
+}
+.name h1{
+  color:black;
+  font-size: 50px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+#p1{
+	color:black;
+}
+#nav-list a {
+  color: white;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: black;
+}
+
+#chicken{
+	color:white;
+}
+#beef{
+	color:white;
+}
+#Mutton{
+	color:white;
+}
+.menu{
+	width: 100%;
+	position: relative;
+}
+
+@media (min-width: 1200px) {
+  .col-md-12{
+  	margin:10px 0 10px 0;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+.col-sm-12{
+  	margin:10px 0 10px 0;
+  }
+}
+@media (max-width: 991px){
+.col-xs-12{
+  	margin:10px 0 10px 0;
+  }
+}
+/*header*/
+/*content*/
+.container{
+width: 100%;
+}
+
+.content{
+	margin-left: 5px;
+	padding: 5px;
+	border:1px solid black;
+	position: relative;
+}
+.content h1{
+	margin-bottom: 2px;
+}
